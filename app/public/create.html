@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API練習</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- load sbcript -->
+  <script src="js/search.js" defer></script>
+  <script src="js/users.js" defer></script>
+  <script src="js/index.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1>ユーザー作成</h1>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">ID</span>
+      </div>
+      <input type="text" class="form-control" id="uid" placeholder="自動採番されます" disabled>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">ユーザー名</span>
+      </div>
+      <input type="text" class="form-control" id="name">
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">プロフィール</span>
+      </div>
+      <input type="text" class="form-control" id="profile">
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">誕生日</span>
+      </div>
+      <input type="text" class="form-control" id="date_of_birth" >
+    </div>
+    
+      <button type="button" class="btn btn-primary" id="save-btn">保存する
+      </button>
+      <button type="button" class="btn btn-primary" id="cancel-btn">キャンセル
+      </button>
+    </div>
+    <!-- <label for="search">ユーザー名で検索</label>
+      <input type="text" id="search" />
+      <button id="search-btn">検索</button> -->
+      
+    </main>
+    
+  </body>
+  </html>
